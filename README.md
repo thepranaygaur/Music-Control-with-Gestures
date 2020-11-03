@@ -27,29 +27,12 @@ that I collected through the 'data collection mode' of the app. If you find that
 you can train the model using images of your own hand. Please refer to the Kaggle link for more information on building or training the model.
 5) Navigate into the src folder and run the following command:
 ```
-python demo.py
+python driver.py
 ```
 6) Some of the features have been included in the snippets in the Application Interface section
 
 ## Gesture Recognition Model
 The model was built to recognize 7 different hand gestures and the absence of a hand. The encoding of the gestures is included in the demo file under the variable `GESTURE_ENCODINGS`. 
-List of gestures recognized (in the order of the encodings):
-1. `Fist`</br>
-![Fist](imagesandgifs/fist.png)
-2. `Five`</br>
-![Five](imagesandgifs/five.png)
-3. `None`</br>
-![None](imagesandgifs/none.png)
-4. `Okay`</br>
-![Okay](imagesandgifs/okay.png)
-5. `Peace`</br>
-![Peace](imagesandgifs/peace.png)
-6. `Rad`</br>
-![Rad](imagesandgifs/rad.png)
-7. `Straight`</br>
-![Straight](imagesandgifs/straight.png)
-8. `Thumbs`</br>
-![Thumbs](imagesandgifs/thumbs.png)
 
 ## Music Player Model (Gesture Mode)
 Currently the system is set up to recognize 6 gestures:
